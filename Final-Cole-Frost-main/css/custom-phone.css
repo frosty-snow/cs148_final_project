@@ -1,0 +1,103 @@
+/*------------------------   Button  ------------------------------ */
+.common-button {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.login-button {
+    margin-right: 2%;
+}
+
+/*------------------------   Header  ------------------------------ */
+.header section {
+    height: 45vh;
+}
+
+/*------------------------   Header  ------------------------------ */
+.column {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.showcase, .openbtn {
+    margin-top: 3%;
+}
+
+.showcase-logo {
+    padding-top: 5%;
+}
+
+.column:nth-child(even) {
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    /*------------------------   Navigation Bar  ------------------------------ */
+    nav ul {
+        padding: 6% 0;
+    }
+
+    .common-button {
+        font-size: medium;
+    }
+
+    .logout input {
+        font-size: 21.5px;
+    }
+
+    .logo {
+        width: 90%;
+    }
+
+    /*------------------------   Header  ------------------------------ */
+    .header section {
+        height: 35vh;
+    }
+
+    #index h2 {
+        font-size: x-large;
+    }
+
+    .header a {
+        font-size: small;
+    }
+
+    /*------------------------   Acitivity Card  ------------------------------ */
+    .column figcaption {
+        font-size: x-large;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .showcase-logo {
+        font-size: x-large;
+    }
+
+    .quiz-form h3 {
+        font-size: x-large;
+    }
+
+    .quiz-form h5 {
+        font-size: large;
+    }
+
+    .favor {
+        font-size: small;
+    }
+
+    #prevBtn, #nextBtn {
+        font-size: small;
+    }
+    
+    /*------------------------   Showcase  ------------------------------ */
+    .showcase-logo {
+        width: 80%;
+    }
+}
+
